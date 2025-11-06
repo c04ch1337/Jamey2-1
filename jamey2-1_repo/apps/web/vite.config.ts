@@ -1,9 +1,7 @@
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-// Note: '@vitejs/plugin-react' is not installed in this workspace.
-// If you intend to use Vite with React, install it with:
-//   npm i -D @vitejs/plugin-react
-// For now, proceed without the React plugin to avoid TS resolution errors.
+// Note: '@vitejs/plugin-react' is installed but not used.
+// If you intend to use Vite with React, add react() to plugins.
+// For now, proceed without the React plugin.
 export default defineConfig({
   plugins: [],
   build: {
