@@ -4,15 +4,13 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "dev": "next dev --port 3000",
-    "build": "next build",
-    "start": "next start",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint --max-warnings 0",
-    "check-types": "next typegen && tsc --noEmit"
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
-    "@repo/ui": "*",
-    "next": "^16.0.0",
+    "@jamey2-1/ui": "*",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   },
