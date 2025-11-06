@@ -1,5 +1,5 @@
 import { defineConfig } from 'vite';
-
+import react from '@vitejs/plugin-react';
 // Note: '@vitejs/plugin-react' is not installed in this workspace.
 // If you intend to use Vite with React, install it with:
 //   npm i -D @vitejs/plugin-react
